@@ -57,3 +57,11 @@ console.log("-------------------------------------------------------------------
 console.log(carro1.Marca);
 console.log(carro2.Marca);
 console.log(carro3.Marca);
+
+let Cor = carro1.Cor;
+let MotorTipo = carro2.Motor.Tipo;
+let MotorPotencia = carro3.Motor.Potência;
+
+console.log(Cor);
+console.log(MotorTipo);
+console.log(MotorPotencia);
