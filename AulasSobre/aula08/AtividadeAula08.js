@@ -35,11 +35,11 @@ console.log(pares);
 
 let idade = 16
 
-if (idade == 0) {
-    while (idade == 0) {
-        console.log("Insira uma idade válida");
-    }
-}
+do {
+    console.log("Insira sua idade:");
+} while (idade<=0) {
+    console.log("Insira sua idade:");
+};
 
 console.log(idade);
 
