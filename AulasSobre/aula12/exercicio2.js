@@ -9,7 +9,7 @@ const clique = () => {
     }
 }
 
-function addFrase() {
+const addFrase = () => {
     const frases = ["Você atingiu 50 cliques!","Outro conjunto de 50 cliques completado!","Continue clicando! Mais 50 cliques alcançados!","Incrível! 50 cliques a mais!","Não pare agora, mais 50 cliques feitos!"];
 
     const frase = frases[Math.floor(Math.random() * frases.length)];
